@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABI Lux Restaurant Reservation</title>
+    <script src="https://kit.fontawesome.com/321c549bf7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="reservation-form.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <h1><b>ABI Lux</b> Restaurang</h1> <br>
+        <div class="text">
+            <p>Är ni ett sällskap på fler än 8 personer, eller har andra specifika önskemål eller funderingar, kontakta oss på:  info@restaurangabilux.se</p>
+            <p>ÖPPETTIDER: Alla dagar 11.00 till 23.00 </p> <br>
+        </div>
+        <form>
+            <label for="name"><i class="fa-solid fa-user"></i> Namn:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email"><i class="fa-solid fa-envelope"></i> E-postadress:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone"><i class="fa-solid fa-phone"></i> Telefone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="party-size"><i class="fa-solid fa-users"></i> Välj antal personer: </label>
+            <select id="party-size" name="party-size" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5+">5+</option>
+            </select>
+
+            <label for="date"><i class="fa-solid fa-calendar-days"></i> Datum:</label>
+            <input type="date" id="date" name="date" required> <br>
+
+            <label for="time"><i class="fa-solid fa-clock"></i> Tid:</label>
+            <input type="time" id="time" name="time" required> <br>
+
+            
+           
+            <div>
+                <input type="checkbox" id="nyhet" name="nyhet" />
+                <label for="nyhet">Nyheter och erbjudande från Restaurangen</label>
+            </div> <br>
+
+            <input type="submit" value="NÄSTA">
+        </form>
+    </div>
+    <div class="info">
+        <h1>ABI LUX!</h1> <br>
+        <h4>”Välkommen till en värld av god mat” Det är mycket mer än bara en slogan för oss.
+            På ABI LUX brinner vi för god och vällagad mat med det där lilla extra. <br>
+            <br>TISDAGAR – VI BJUDER PÅ DESSERT! VID KÖP AV EN BLACKSTONE VARMRÄTT.<br>
+            <br>ÄR DU ALLERGISK, GLÖM INTE ATT FRÅGA OSS VAD MATEN INNEHÅLLER <br>  
+        </h4>
+    
+    </div>
+    
+    <footer> 
+        <div class="social">
+            <p>Följ eller gilla oss på Facebook, Instagram och Youtube</p>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <p>Copyright &copy; 2023 ABI LUX Restaurang</p>
+    </footer>
+  
+</body>
+</html>
